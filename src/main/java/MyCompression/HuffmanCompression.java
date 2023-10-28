@@ -1,6 +1,7 @@
 package MyCompression;
 
 import java.io.*;
+import java.net.URL;
 import java.util.*;
 
 public class HuffmanCompression {
@@ -9,12 +10,13 @@ public class HuffmanCompression {
     public static void main(String args[]) {
         HuffmanCompression huffmanCompression = new HuffmanCompression();
         try {
-            String textToCompress = huffmanCompression.readFromText("/Users/kovallip/IdeaProjects/CodingChallenge/src/main/resources/Compression.txt");
+            URL sourceFilePath = HuffmanCompression.class.getClassLoader().getResource("Compression.txt");
+            String textToCompress = huffmanCompression.readFromText(sourceFilePath.getPath());
             List<Map.Entry<Character, Integer>> listOfEntries = huffmanCompression.doCharactersCount(textToCompress);
             SearchTrie searchTrie = null;
             HuffmanBaseNode tree =  huffmanCompression.buildSearchTries(listOfEntries);
             huffmanCompression.printCode(tree,"");
-            huffmanCompression.writeToFile("Compression.txt", textToCompress);
+            huffmanCompression.writeToFile( textToCompress);
             huffmanCompression.decompress(tree);
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
@@ -90,9 +92,9 @@ public class HuffmanCompression {
         }
     }
 
-    void writeToFile(String textFileName, String textToCompress) {
+    void writeToFile(String textToCompress) {
         try {
-            File file = new File("/Users/kovallip/IdeaProjects/CodingChallenge/src/main/resources/Encoding"+"-"+"Compressed");
+            File file = new File("src/main/resources/Encoding-Compressed.txt");
             if(file.createNewFile()) {
                 System.out.println("New file created:" +file.getName());
             }
@@ -111,8 +113,8 @@ public class HuffmanCompression {
 
     void decompress(HuffmanBaseNode tree) {
         try {
-            String encodedText = readFromText("/Users/kovallip/IdeaProjects/CodingChallenge/src/main/resources/Encoding"+"-"+"Compressed");
-            File file = new File("/Users/kovallip/IdeaProjects/CodingChallenge/src/main/resources/Encoding"+"-"+"Decompressed");
+            String encodedText = readFromText("src/main/resources/Encoding-Compressed.txt");
+            File file = new File("src/main/resources/Encoding"+"-"+"Decompressed");
             if(file.createNewFile()) {
                 System.out.println("New file created:" +file.getName());
             }

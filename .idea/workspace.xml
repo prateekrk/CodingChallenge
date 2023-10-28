@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="648917a4-6db1-4785-bf47-f63fff11c4ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JsonParser/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanBaseNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanLeafNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/SearchTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/MainWcTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Compression.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonParserTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/work/testng/src/testng.xml" afterDir="false" />
+    <list default="true" id="648917a4-6db1-4785-bf47-f63fff11c4ef" name="Changes" comment="Coding Challenge">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,12 +148,36 @@
       <workItem from="1698036991099" duration="958000" />
       <workItem from="1698327986211" duration="6188000" />
       <workItem from="1698415795667" duration="3698000" />
-      <workItem from="1698420285578" duration="7702000" />
+      <workItem from="1698420285578" duration="8674000" />
     </task>
+    <task id="LOCAL-00001" summary="Coding Challenge">
+      <option name="closed" value="true" />
+      <created>1698515803625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698515803625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Coding Challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coding Challenge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,7 +189,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java</url>
-          <line>123</line>
+          <line>125</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
