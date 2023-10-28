@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="648917a4-6db1-4785-bf47-f63fff11c4ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JsonParser/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanBaseNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanLeafNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/HuffmanTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCompression/SearchTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/MainWcTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WcTool/WcToolNumberOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Compression.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonParserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/work/testng/src/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/src.zip!/java/io/File.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2X7RdTkkIp5lC6uGMtDjOjgVAW9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HuffmanCompression">
+    <configuration name="HuffmanCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyCompression.HuffmanCompression" />
+      <module name="CodingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyCompression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WcToolNumberOfBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WcTool.WcToolNumberOfBytes" />
+      <module name="CodingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonParserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonParserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonParserTests.test3Step2InValidJson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonParserTests" />
+      <option name="METHOD_NAME" value="test3Step2InValidJson" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonParserTests.test3Step2ValidJson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonParserTests" />
+      <option name="METHOD_NAME" value="test3Step2ValidJson" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HuffmanCompression" />
+        <item itemvalue="Application.WcToolNumberOfBytes" />
+        <item itemvalue="TestNG.JsonParserTests.test3Step2ValidJson" />
+        <item itemvalue="TestNG.JsonParserTests" />
+        <item itemvalue="TestNG.JsonParserTests.test3Step2InValidJson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="648917a4-6db1-4785-bf47-f63fff11c4ef" name="Changes" comment="" />
+      <created>1697978220747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697978220747</updated>
+      <workItem from="1697978221792" duration="1994000" />
+      <workItem from="1697980227024" duration="1233000" />
+      <workItem from="1698036991099" duration="958000" />
+      <workItem from="1698327986211" duration="6188000" />
+      <workItem from="1698415795667" duration="3698000" />
+      <workItem from="1698420285578" duration="7702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JsonParser/JsonParser.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MyCompression/HuffmanCompression.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodingChallenge$JsonParserTests_test3Step2InValidJson.ic" NAME="JsonParserTests.test3Step2InValidJson Coverage Results" MODIFIED="1697981306399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
