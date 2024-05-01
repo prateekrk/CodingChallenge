@@ -1,4 +1,4 @@
-package MyCompression;
+package coding.challenge3.huffmanCompression;
 
 public class SearchTrie {
     private final String value;

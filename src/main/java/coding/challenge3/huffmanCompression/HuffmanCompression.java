@@ -1,4 +1,4 @@
-package MyCompression;
+package coding.challenge3.huffmanCompression;
 
 import java.io.*;
 import java.net.URL;

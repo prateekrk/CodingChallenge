@@ -1,4 +1,4 @@
-package MyCompression;
+package coding.challenge3.huffmanCompression;
 
 public class HuffmanTree implements  Comparable<HuffmanTree> {
     private final HuffmanBaseNode root;

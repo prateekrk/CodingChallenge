@@ -1,7 +1,8 @@
-package WcTool;
+package coding.challenge2.unixWcTool;
 
 public class MainWcTool {
-    public static void main(String args[]) {
+    public static void main( String args[]) {
+        args = new String[]{"-c","/Users/kovalliP/Documents/GitHub/CodingChallenge/src/main/resources/Test.txt"};
         String arg = args[0];
             if(args.length > 1) {
                 String filePath = args[1];

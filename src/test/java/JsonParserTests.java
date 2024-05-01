@@ -1,4 +1,4 @@
-import JsonParser.JsonParser;
+import coding.challenge4.jsonValidator.JsonParser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,7 +1,7 @@
-package WcTool;
+package coding.challenge2.unixWcTool;
 
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 
 public class WcToolNumberOfBytes implements  Runnable {
@@ -13,9 +13,8 @@ public class WcToolNumberOfBytes implements  Runnable {
     public void run() {
         FileReader fileReader = new FileReader();
         try {
-            String txt = fileReader.readFromFile(filePath);
-            System.out.println(txt.toCharArray().length * 2);
-        } catch (FileNotFoundException e) {
+            System.out.println(fileReader.getNumberOfBytes(filePath));
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

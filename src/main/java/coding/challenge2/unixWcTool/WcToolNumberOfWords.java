@@ -1,7 +1,6 @@
-package WcTool;
+package coding.challenge2.unixWcTool;
 
-import java.io.FileNotFoundException;
-import java.util.Arrays;
+import java.io.IOException;
 
 public class WcToolNumberOfWords implements  Runnable {
     private String filePath;
@@ -14,7 +13,7 @@ public class WcToolNumberOfWords implements  Runnable {
         try {
             int count = fileReader.getNumberOfWords(filePath);
             System.out.println(count);
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

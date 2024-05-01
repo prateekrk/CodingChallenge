@@ -1,4 +1,4 @@
-package JsonParser;
+package coding.challenge4.jsonValidator;
 
 import java.io.File;
 import java.io.FileNotFoundException;

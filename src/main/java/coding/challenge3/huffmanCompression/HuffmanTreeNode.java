@@ -1,4 +1,4 @@
-package MyCompression;
+package coding.challenge3.huffmanCompression;
 
 public class HuffmanTreeNode implements HuffmanBaseNode {
     private final int weight;

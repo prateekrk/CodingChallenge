@@ -1,4 +1,4 @@
-package MyCompression;
+package coding.challenge3.huffmanCompression;
 
 public class HuffmanLeafNode implements HuffmanBaseNode{
     private final char element;
